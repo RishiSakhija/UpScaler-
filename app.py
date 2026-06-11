@@ -61,7 +61,8 @@ def restore_image(uploaded_file, effect_amount):
         "-i", input_path,
         "-o", ai_output_path,
         "-n", "realesrgan-x4plus",
-        "-f", "png"
+        "-f", "png",
+        "-t", "32"
     ]
     
     try:
